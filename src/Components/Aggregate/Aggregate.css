@@ -1,0 +1,17 @@
+.paymentleft {
+    position: 'relative';
+    left: '86%';
+    margin-right: '40px';
+     bottom: '40px';
+  }
+  
+  .paymentright {
+    position: 'relative';
+    left: '86%';
+    margin-right: '40px';
+     bottom: '40px';
+  }
+
+  .ag-header-cell-label {
+   justify-content: center;
+  }

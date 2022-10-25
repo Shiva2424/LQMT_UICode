@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;   
+}
+.container {
+   display: flex;
+}
+.sidebar {
+    background: #f7f7f5;
+    height: 100vh;
+    width: 220px;
+    box-shadow: 2px 2px 3px #59595e;
+    transition: all 0.5s;
+}
+.hidesidebar {
+    background: white;
+    transition: all 0.5s;
+    height: 5vh;
+    width: 50px;
+}
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.link {
+    display: flex;
+    color: rgb(82, 78, 78);
+    font-weight: 500;
+    margin-left: 0px;
+    padding: 10px 2px;
+    gap: 5px;
+    transition: all 0.5s;
+}
+.link.selected {
+    background-color: white;
+    color: #bb0826;
+    font-weight: 700;   
+}
+.link:hover {
+    background-color: white;
+    color: #bb0826;
+    font-weight: 700;
+
+}

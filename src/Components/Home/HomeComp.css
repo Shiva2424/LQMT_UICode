@@ -1,0 +1,49 @@
+.home {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 600px 600px;
+    /* grid-auto-rows: auto; */
+    grid-gap: 10px;
+}
+
+/* .griditem2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+} */
+
+.header {
+    font-size: 14;
+     font-weight: 'bold';
+     padding:'10px';
+      margin: '0px';
+      background-color:'#fff7e1';
+}
+.datedisplay {
+    height: 20%;
+    background-color: #e3e3cd;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #bb0826;
+}
+.timesection {
+    margin-top: 10px;
+}
+.time {
+    width: 25px;
+    height: 30px;
+    margin:3px;
+    padding:5px;
+    background-color:#e3e3cd;
+    font-weight: bold;
+    border-radius: 2px;
+    border-bottom: 3px solid yellow;
+}
+.timenotation {
+    font-weight: bold;
+    font-size: 14px;
+}
+.col {
+    margin-top: 5px;
+    font-weight: bold;
+}

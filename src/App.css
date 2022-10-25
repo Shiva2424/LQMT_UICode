@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow : hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.leftPanel {
+  width: 15%;
+  height: 95vh;
+  margin: 20px;
+  float: left;
+  padding: 10px;
+  background-color: #07679C;
+  color: #fff;
+  font-family: Raleway, Arial;
+  font-size: 14px
+}
+.leftPanel li{
+  cursor: pointer;
+}
+.pb10 {
+  padding-bottom: 10px
+}
+
+.rightPanel {
+  height: 100%;
+  width: 100vw;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+
+.mb10 {
+  margin-bottom: 15px !important;
+}
+.txtCls .MuiInput-input {
+  font-size: 14px !important;
+  width: 300px;
+}
+.ag-theme-alpine .ag-header-cell {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ag-right-header .ag-header-cell-label {
+   flex-direction: row-reverse;
+}
+
+.ag-center-header .ag-header-cell-label {
+  justify-content: center;
+}
+
+.ag-left-header .ag-header-cell-label {
+  flex-direction: row;
+}
+
+.ag-center-cell {
+  text-align: center;
+}
+
+.ag-right-cell {
+  text-align: right;
+}
+
+.ag-left-cell {
+  text-align: left;
+}
+
+.paymentleft {
+  position: 'relative';
+  left: '86%';
+  margin-right: '40px';
+   bottom: '40px';
+}
+
+.paymentright {
+  position: 'relative';
+  left: '86%';
+  margin-right: '40px';
+   bottom: '40px';
+}
